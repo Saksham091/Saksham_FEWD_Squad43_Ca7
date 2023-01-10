@@ -1,0 +1,147 @@
+.search cite{
+    font-size: 1rem;
+  }
+  .search-box{
+    margin: 1.2rem 0;
+    display: flex;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+   
+  }
+  .search-control,
+  .search-btn{
+    width: 100%;
+  }
+  .search-control {
+    padding: 0 1rem;
+    font-size: 1.1rem;
+    font-family: inherit;
+    border: 1px solid rgb(233, 105, 0);
+    color: rgb(233, 105, 0);
+    /* border-top-left-radius: 2rem; */
+    /* border-bottom-left-radius: 2rem; */
+    border-radius: 1rem;
+    height: 5vh;
+}
+#search{
+    font-size: 1.5rem;
+    font-family: cursive;
+    color: white;
+}
+
+@media screen and (max-width:300px) {
+  .search-control {
+    padding: 0 1rem;
+    font-size: 1.1rem;
+    font-family: inherit;
+    border: 1px solid rgb(233, 105, 0);
+    color: rgb(233, 105, 0);
+    /* border-top-left-radius: 2rem; */
+    /* border-bottom-left-radius: 2rem; */
+    border-radius: 1rem;
+    height: 6vh;
+}
+}
+
+
+
+@media screen and (max-width:600px) {
+  #search{
+    font-size: 20px;
+  }
+}
+  
+  
+  #book{
+    margin-top: 6%;
+  }
+  .book-comtainer{
+    margin: 2rem;
+  }
+
+  .book-comtainer h1{
+    font-size: 50px;
+  }
+  
+  .book-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    BACKGROUND-COLOR: #ffffff;
+    border-radius: 1rem;
+    
+    /* margin: 2rem; */
+    /* text-align: center; */
+    text-align: center;
+    box-shadow: 10px 18px 15px 2px rgba(45, 47, 50, 0.688);
+  }
+
+  body{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1530' height='2600' preserveAspectRatio='none' viewBox='0 0 1530 2600'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1722%26quot%3b)' fill='none'%3e%3crect width='1530' height='2600' x='0' y='0' fill='url(%23SvgjsLinearGradient1723)'%3e%3c/rect%3e%3cpath d='M1530 0L1089.66 0L1530 626.11z' fill='rgba(255%2c 255%2c 255%2c .1)'%3e%3c/path%3e%3cpath d='M1089.66 0L1530 626.11L1530 1295.53L731.4100000000001 0z' fill='rgba(255%2c 255%2c 255%2c .075)'%3e%3c/path%3e%3cpath d='M731.4100000000001 0L1530 1295.53L1530 1664.97L727.6400000000001 0z' fill='rgba(255%2c 255%2c 255%2c .05)'%3e%3c/path%3e%3cpath d='M727.6400000000001 0L1530 1664.97L1530 1869.97L314.8500000000001 0z' fill='rgba(255%2c 255%2c 255%2c .025)'%3e%3c/path%3e%3cpath d='M0 2600L408.72 2600L0 1725.13z' fill='rgba(0%2c 0%2c 0%2c .1)'%3e%3c/path%3e%3cpath d='M0 1725.13L408.72 2600L922.25 2600L0 1114.1200000000001z' fill='rgba(0%2c 0%2c 0%2c .075)'%3e%3c/path%3e%3cpath d='M0 1114.12L922.25 2600L1156.13 2600L0 636.9999999999999z' fill='rgba(0%2c 0%2c 0%2c .05)'%3e%3c/path%3e%3cpath d='M0 637L1156.13 2600L1331.2900000000002 2600L0 212.27999999999997z' fill='rgba(0%2c 0%2c 0%2c .025)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1722'%3e%3crect width='1530' height='2600' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='-17.48%25' y1='89.71%25' x2='117.48%25' y2='10.29%25' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1723'%3e%3cstop stop-color='%230e2a47' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(0%2c 111%2c 255%2c 1)' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e");
+    background-size: cover;
+  }
+  
+  .book-container{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    background: #cfcecf;
+    text-align: center;
+    color: #fff;
+    
+   
+  }
+  .book-img{
+    display: flex;
+    justify-content: center;
+  }
+  .rating-price{
+    display: flex;
+    justify-content: space-around;
+    margin-top: -2rem;
+    width: 100%;
+  }
+  .book-img img{
+    width: 80%;
+    display: block;
+  }
+  
+  .book-name h4{
+    font-size: 1.4rem;
+  }
+  
+  @media screen and (min-width: 768px){
+    #book{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 5rem;
+    }
+    .book-item{
+        margin: 0;
+    }
+    
+  }
+  
+  @media screen and (min-width: 1400px){
+    #book{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .book-item:hover{
+        scale: 1.04;
+        transition: 0.5s;
+        }
+  }
+  
+  @media screen and (max-width:768px){
+    .book-item{
+      margin-bottom: 3rem;
+    }
+    
+  }
+  @media screen and (min-width:1000px) {
+    .search-control,
+  .search-btn{
+    width: 50%;
+  }
+  }
